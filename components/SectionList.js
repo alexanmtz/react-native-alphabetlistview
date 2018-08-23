@@ -89,9 +89,9 @@ export default class SectionList extends Component {
   }
 
   // fix bug when change data 
-  componentDidUpdate() {
-    this.fixSectionItemMeasure();
-  }
+  //componentDidUpdate() {
+    //this.fixSectionItemMeasure();
+  //}
 
   componentWillUnmount() {
     this.measureTimer && clearTimeout(this.measureTimer);
